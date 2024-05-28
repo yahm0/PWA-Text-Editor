@@ -1,13 +1,15 @@
 {
-    "name": "pwa-text-editor-server",
+    "name": "server",
     "version": "1.0.0",
-    "description": "Backend for PWA Text Editor",
-    "main": "server.js",
+    "description": "Server side of the PWA Text Editor",
+    "main": "../server.js",
     "scripts": {
-      "start": "node server.js"
+      "start": "node ../server.js"
     },
     "dependencies": {
-      "express": "^4.17.1"
-    }
+      "express": "^4.17.1",
+      "mongoose": "^5.13.8"
+    },
+    "devDependencies": {}
   }
   

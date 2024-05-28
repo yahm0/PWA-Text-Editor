@@ -1,7 +1,7 @@
 {
-    "name": "pwa-text-editor",
+    "name": "client",
     "version": "1.0.0",
-    "description": "A PWA Text Editor",
+    "description": "Client side of the PWA Text Editor",
     "main": "src/js/main.js",
     "scripts": {
       "start": "webpack serve --mode development",
@@ -9,7 +9,7 @@
     },
     "dependencies": {
       "idb": "^5.0.8",
-      "codemirror": "^5.65.6"  // Add CodeMirror for syntax highlighting
+      "codemirror": "^5.65.6"
     },
     "devDependencies": {
       "@babel/core": "^7.14.6",

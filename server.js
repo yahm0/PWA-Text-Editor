@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
-const apiRoutes = require('./routes/api');
-const middleware = require('./config/middleware');
+const apiRoutes = require('./server/routes/api');
+const middleware = require('./server/config/middleware');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -26,14 +26,14 @@ mongoose.connection.on('error', (err) => {
 middleware(app);
 
 // Serve static files from the client
-app.use(express.static(path.join(__dirname, '..', 'client', 'dist')));
+app.use(express.static(path.join(__dirname, 'client', 'dist')));
 
 // Use API routes
 app.use('/api', apiRoutes);
 
 // Serve the main HTML file for the app
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'client', 'dist', 'index.html'));
+  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
 });
 
 app.listen(PORT, () => {

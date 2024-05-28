@@ -1,30 +1,18 @@
 {
-    "name": "pwa-text-editor",
-    "version": "1.0.0",
-    "description": "A progressive web application text editor that works offline and uses IndexedDB for data persistence.",
-    "main": "server.js",
-    "scripts": {
-      "start:dev": "nodemon server.js",
-      "start": "node server.js",
-      "build": "webpack --config webpack.config.js",
-      "client": "cd client && npm start"
-    },
-    "keywords": [
-      "pwa",
-      "text-editor",
-      "offline",
-      "web-app"
-    ],
-    "author": "yahm0",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.1",
-      "if-env": "^1.0.4"
-    },
-    "devDependencies": {
-      "concurrently": "^5.2.0",
-      "nodemon": "^2.0.4",
-      "@babel/plugin-transform-object-rest-spread": "^7.0.0", 
-      "@rollup/plugin-terser": "^7.0.0"
-    }
-  }
+  "name": "pwa-text-editor",
+  "version": "1.0.0",
+  "description": "A PWA Text Editor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "client-install": "cd client && npm install",
+    "server-install": "cd server && npm install",
+    "install-all": "npm run client-install && npm run server-install"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.8"
+  },
+  "devDependencies": {}
+}
