@@ -2,6 +2,14 @@
 
 A Progressive Web Application (PWA) Text Editor that runs in the browser and functions offline. This application uses IndexedDB for data persistence, Webpack for bundling, and Workbox for service worker management. The app can be installed on the desktop as a PWA.
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+
 ## Features
 - Create notes or code snippets with or without an internet connection
 - Save content automatically when the DOM window is unfocused
