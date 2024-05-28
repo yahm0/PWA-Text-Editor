@@ -1,0 +1,22 @@
+{
+    "name": "PWA Text Editor",
+    "short_name": "TextEditor",
+    "description": "A simple text editor as a PWA",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "images/logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
