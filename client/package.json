@@ -8,7 +8,8 @@
       "build": "webpack --mode production"
     },
     "dependencies": {
-      "idb": "^5.0.8"
+      "idb": "^5.0.8",
+      "codemirror": "^5.65.6"  // Add CodeMirror for syntax highlighting
     },
     "devDependencies": {
       "@babel/core": "^7.14.6",
