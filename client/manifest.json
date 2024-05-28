@@ -1,6 +1,6 @@
 {
-    "name": "J.A.T.E - Just Another Text Editor",
-    "short_name": "J.A.T.E",
+    "name": "PWA Text Editor",
+    "short_name": "PWA",
     "description": "A simple text editor as a PWA",
     "background_color": "#ffffff",
     "theme_color": "#007bff",
