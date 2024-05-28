@@ -55,3 +55,4 @@ This project is licensed under the MIT License.
 
 
 `https://github.com/yahm0/PWA-Text-Editor`  URL of the repository.
+`https://pwa-text-editor-y0ld.onrender.com` URL for the Rendor Deployment.
